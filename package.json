@@ -21,7 +21,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "tailwind:css": "tailwind build src/css/tailwind.src.css -c  tailwind.js -o src/css/tailwind.css",
-    "start": "node server.js",
+    "start": "react-scripts start",
     "dev": "npm run tailwind:css && react-scripts start",
     "build": "npm run tailwind:css && react-scripts build",
     "test": "react-scripts test --env=jsdom",
