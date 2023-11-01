@@ -1,6 +1,3 @@
-![dale](https://user-images.githubusercontent.com/4343950/131097632-d8c8d972-6faa-44e9-839a-cc36b9c9686b.jpg)
-
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
