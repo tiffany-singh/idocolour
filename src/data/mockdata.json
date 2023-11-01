@@ -130,24 +130,8 @@
             "children": []
         },
         {
-            "title": "Projects",
-            "route": "/projects",
-            "children": [
-                {
-                    "title": "Full Code",
-                    "route": "/projects/fullcode",
-                    "children": []
-                },
-                {
-                    "title": "Challenge Haus",
-                    "route": "/projects/challengehaus",
-                    "children": []
-                }
-            ]
-        },
-        {
-            "title": "Commissions",
-            "route": "/commissions",
+            "title": "About",
+            "route": "/about",
             "children": [
                 {
                     "title": "Full Code",

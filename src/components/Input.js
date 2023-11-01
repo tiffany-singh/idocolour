@@ -2,7 +2,7 @@ import React from 'react';
 
 const Input = props => {
 
-    let customCss = "resize-none h-12 w-full bg-transparent text-white text-md";
+    let customCss = "resize-none h-12 w-full bg-transparent text-white text-lg font-bold font-mono";
     let formControl = "form-control";
 
     if (props.touched && !props.valid) {
@@ -11,7 +11,7 @@ const Input = props => {
 
     if(props.size==="lg")
     {
-        customCss = "resize-none flex-grow w-full h-32 bg-transparent text-white text-md"
+        customCss = "resize-none flex-grow w-full h-32 bg-transparent text-white text-lg font-bold font-mono"
     }
 
     return (

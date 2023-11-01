@@ -116,11 +116,11 @@ class Contact extends Component {
   render() {
     const { musicParams } = this.state;
     return (
-      <FullscreenImage image="/images/HueWeb.Contact.ShatterMan.jpg">
+      <FullscreenImage image="/images/contact.jpg">
           <NavMenu menuList={this.props.menuList} musicParams={musicParams} />
           <div className='flex object-center justify-center items-center self-auto w-100 h-100 md:mx-auto'>
             <div className={this.state.emailSent ? "invisible mt-2 mb-24 p-8 sm:w-2/3 md:w-1/2" : "visibile mt-2 mb-24 p-8 sm:w-2/3 md:w-1/2"}>
-              <h1 className="visible mx-auto w-full text-white font-thin text-center pb-8 tracking-wide md:mt-32">CONTACT</h1>  
+              <h1 className="visible mx-auto w-full text-white font-thin text-center pb-8 tracking-wide md:mt-32 font-mono">CONTACT</h1>  
               <Input
                 type="email"
                 name="email"
@@ -139,7 +139,7 @@ class Contact extends Component {
                 touched={this.state.formControls.subject.touched}
                 valid={this.state.formControls.subject.valid}  
               />
-              <h2 className={this.state.emailSent ? 'text-center w-full visible font-sans uppercase bg-transparent mx-auto text-white text-md font-thin' : 'invisible'}>SENT successfully</h2>
+              <h2 className={this.state.emailSent ? 'text-center w-full visible font-mono uppercase bg-transparent mx-auto text-white text-md font-thin' : 'invisible'}>SENT successfully</h2>
               <Input
                 type="text"
                 name="body"
@@ -157,11 +157,6 @@ class Contact extends Component {
                 >
                 SEND
               </button>
-              <div className="visible mt-4 md:flex md:flex-wrap justify-between w-full mx-auto">
-                <SocialIcon route="https://stevenhue.bandcamp.com/releases" imgSrc='images/bc_icon.png' />
-                <SocialIcon route="https://soundcloud.com/steven_hue" imgSrc='images/sc_icon.png' />
-                <SocialIcon route="https://twitter.com/steven_hue" imgSrc='images/twit_icon.png' />
-              </div>
           </div>
         </div>
       </FullscreenImage>

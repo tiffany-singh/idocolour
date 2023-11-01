@@ -17,6 +17,6 @@ export const EpkFullscreenImage = styled.div`
     width: 100vw;
     max-width: 100%;
     max-height: 100%;
-    background-position: center;
+    background-repeat: repeat;
     background-size: cover;
 `;
