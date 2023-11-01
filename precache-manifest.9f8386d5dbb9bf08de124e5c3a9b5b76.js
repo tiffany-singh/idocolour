@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "54c3069f6c1fced45d6cccff3aa1bfc4",
+    "revision": "8c9e192098d5fe2b71293c052df56e2b",
     "url": "/index.html"
   }
 ];
