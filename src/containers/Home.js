@@ -11,7 +11,7 @@ class Home extends Component {
   render() {
     const { params } = this.state;
     return (
-      <FullscreenImage image="/images/HueWeb.BW.Denim.Man.jpg">
+      <FullscreenImage image="/images/home.jpg">
         {/* <NavMenu menuList={this.props.menuList} musicParams={options} /> */}
         <div className="ml-8 pt-8 w-1/3 font-sans">
           <h1 className="mb-5 uppercase tracking-wide font-thin md:text-5xl text-4xl text-white">
