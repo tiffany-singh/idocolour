@@ -12,19 +12,19 @@ class Home extends Component {
     const { params } = this.state;
     return (
       <FullscreenImage image="/images/HueWeb.BW.Denim.Man.jpg">
-        <NavMenu menuList={this.props.menuList} musicParams={options} />
+        {/* <NavMenu menuList={this.props.menuList} musicParams={options} /> */}
         <div className="ml-8 pt-8 w-1/3 font-sans">
           <h1 className="mb-5 uppercase tracking-wide font-thin md:text-5xl text-4xl text-white">
-            Steven Hue
+            I Do Colour
           </h1>
           <p className="tracking-wide font-hairline text-white md:text-2xl text-sm">
-            Vocalist. Composer. Multimedia Creative.         
+            Colour consultancy by Tiffany Singh
           </p>
         </div> 
-        <div className="items-stretch md:w-1/4 w-2/3 md:flex fixed md:pin-r pin-b m-20 justify-center">
+        {/* <div className="items-stretch md:w-1/4 w-2/3 md:flex fixed md:pin-r pin-b m-20 justify-center">
           <TextButton text='Projects' route='/projects'/>
           <TextButton text='Commissions' route='/commissions'/>
-        </div>
+        </div> */}
       </FullscreenImage>
     );
   }
