@@ -90,7 +90,7 @@ class Contact extends Component {
 
   formSubmitHandler = () => {
     const formData = {};
-    var service_id = "shuemoney";
+    var service_id = "service_97i0in4";
     const templateId = 'contact_form';
 
     for (let formElementId in this.state.formControls) {
@@ -120,43 +120,10 @@ class Contact extends Component {
           <NavMenu menuList={this.props.menuList} musicParams={musicParams} />
           <div className='flex object-center justify-center items-center self-auto w-100 h-100 md:mx-auto'>
             <div className={this.state.emailSent ? "invisible mt-2 mb-24 p-8 sm:w-2/3 md:w-1/2" : "visibile mt-2 mb-24 p-8 sm:w-2/3 md:w-1/2"}>
-              <h1 className="visible mx-auto w-full text-white font-thin text-center pb-8 tracking-wide md:mt-32 font-mono">CONTACT</h1>  
-              <Input
-                type="email"
-                name="email"
-                placeholder={this.state.formControls.email.placeholder}
-                value={this.state.formControls.email.value} 
-                onChange={this.changeHandler} 
-                touched={this.state.formControls.email.touched}
-                valid={this.state.formControls.email.valid}  
-              />
-              <Input
-                type="text"
-                name="subject"
-                placeholder={this.state.formControls.subject.placeholder}
-                value={this.state.formControls.subject.value} 
-                onChange={this.changeHandler} 
-                touched={this.state.formControls.subject.touched}
-                valid={this.state.formControls.subject.valid}  
-              />
-              <h2 className={this.state.emailSent ? 'text-center w-full visible font-mono uppercase bg-transparent mx-auto text-white text-md font-thin' : 'invisible'}>SENT successfully</h2>
-              <Input
-                type="text"
-                name="body"
-                size="lg"
-                placeholder={this.state.formControls.body.placeholder}
-                value={this.state.formControls.body.value} 
-                onChange={this.changeHandler} 
-                touched={this.state.formControls.body.touched}
-                valid={this.state.formControls.body.valid}  
-              />
-              <button 
-                className={this.state.bttnStyle}
-                onClick={this.formSubmitHandler}
-                disabled={!this.state.formIsValid}
-                >
-                SEND
-              </button>
+              <h1 className="visible mx-auto w-full text-white font-mono text-center pb-8 tracking-wide md:mt-32">CONTACT</h1>  
+              <p className="visible w-full text-white font-mono text-center tracking-wide">EMAIL: info@idocolour.com</p>
+              <p className="visible text-white font-mono text-center tracking-wide md:mt-5">ARTIST: www.tiffanysingh.com</p>
+              <p className="visible text-white font-mono text-center tracking-wide md:mt-5">INSTAGRAM: @ido.colour</p>
           </div>
         </div>
       </FullscreenImage>
