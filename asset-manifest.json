@@ -1,13 +1,13 @@
 {
-  "main.css": "/idocolour/static/css/main.54798cdb.chunk.css",
-  "main.js": "/idocolour/static/js/main.0de80be7.chunk.js",
-  "main.js.map": "/idocolour/static/js/main.0de80be7.chunk.js.map",
-  "static/js/1.5f422d1f.chunk.js": "/idocolour/static/js/1.5f422d1f.chunk.js",
-  "static/js/1.5f422d1f.chunk.js.map": "/idocolour/static/js/1.5f422d1f.chunk.js.map",
-  "runtime~main.js": "/idocolour/static/js/runtime~main.8b810433.js",
-  "runtime~main.js.map": "/idocolour/static/js/runtime~main.8b810433.js.map",
-  "static/css/main.54798cdb.chunk.css.map": "/idocolour/static/css/main.54798cdb.chunk.css.map",
-  "index.html": "/idocolour/index.html",
-  "precache-manifest.f6552e9b15b2ba600ced28f01d7f46b5.js": "/idocolour/precache-manifest.f6552e9b15b2ba600ced28f01d7f46b5.js",
-  "service-worker.js": "/idocolour/service-worker.js"
+  "main.css": "/static/css/main.1da691c9.chunk.css",
+  "main.js": "/static/js/main.b4a7e0f8.chunk.js",
+  "main.js.map": "/static/js/main.b4a7e0f8.chunk.js.map",
+  "static/js/1.a3259e0a.chunk.js": "/static/js/1.a3259e0a.chunk.js",
+  "static/js/1.a3259e0a.chunk.js.map": "/static/js/1.a3259e0a.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "static/css/main.1da691c9.chunk.css.map": "/static/css/main.1da691c9.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.3072f89d0b87203efdcca8798075fbe9.js": "/precache-manifest.3072f89d0b87203efdcca8798075fbe9.js",
+  "service-worker.js": "/service-worker.js"
 }
