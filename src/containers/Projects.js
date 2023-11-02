@@ -16,8 +16,8 @@ class Projects extends Component {
       <Fragment>
         <body className="bg-yellow">
         <NavMenu menuList={this.props.menuList} musicParams={options} />
-          <div className="mt-0 ml-10 mr-10 pt-24 font-mono">
-            <p className="flex-wrap tracking-wide text-justify font-hairline md:text-1xl text-purple font-mono leading-loose ">
+          <div className="mt-0 ml-20 mr-20 pt-24 font-mono">
+            <p className="flex-wrap tracking-wide text-justify font-hairline md:text-2xl text-purple font-mono leading-loose ">
             <p className="text-center text-2xl italic">"colours are the subconscious native tongue" - carl jung </p>
             <br></br> 
             <h1 className="text-left">ido.colour</h1> 
