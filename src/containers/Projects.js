@@ -16,8 +16,8 @@ class Projects extends Component {
       <Fragment>
         <body className="bg-yellow">
         <NavMenu menuList={this.props.menuList} musicParams={options} />
-          <div className="ml-10 pt-5 font-mono">
-            <p className="flex-wrap tracking-wide font-hairline md:text-2xl text-sm text-purple font-mono leading-loose ">
+          <div className="mt-0 m-10 pt-5 font-mono">
+            <p className="flex-wrap tracking-wide text-justify font-hairline md:text-1xl text-purple font-mono leading-loose ">
             <h1>ido.colour</h1> 
             ido.colour is the creation of artist Tiffany-Tara Singh. well established in the fine art world, her 
             internationally respected practice positions colour as a medium for health promotion 
