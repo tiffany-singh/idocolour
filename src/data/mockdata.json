@@ -125,12 +125,12 @@
     },
     "menu" : [
         {
-            "title": "Home",
+            "title": "home",
             "route": "/",
             "children": []
         },
         {
-            "title": "About",
+            "title": "about",
             "route": "/about",
             "children": [
                 {
@@ -146,7 +146,7 @@
             ]
         },
         {
-            "title": "Contact",
+            "title": "contact",
             "route": "/contact",
             "children": []
         }

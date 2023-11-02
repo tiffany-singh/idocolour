@@ -6,7 +6,7 @@ export default ({ close, items }) => (
     <ul>
       {items.map(item => (
         <li key={item.title + item.route}>
-          <NavLink onClick={close} className="font-sans text-3xl no-underline uppercase font-thin text-white hover:text-black" to={item.route}>
+          <NavLink onClick={close} className="font-mono text-5xl no-underline font-bold text-pink hover:text-black" to={item.route}>
             {item.title}
           </NavLink>
         </li>

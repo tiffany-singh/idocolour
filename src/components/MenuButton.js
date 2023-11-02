@@ -5,8 +5,8 @@ import Menu from "./Menu";
 
 const contentStyle = {
   background: "rgba(255,255,255,0)",
-  width: "80%",
-  border: "none"
+  border: "none",
+  'flex-direction': "column"
 };
 
 export default class MenuButton extends React.Component {
@@ -21,7 +21,7 @@ export default class MenuButton extends React.Component {
     return (
       <Popup
       modal
-      overlayStyle={{ background: "rgba(10,0,0,0.7", zIndex:1 }}
+      overlayStyle={{ background: "rgba(255,255,0,1", zIndex:1 }}
       contentStyle={contentStyle}
       closeOnDocumentClick={false}
       lockScroll={true}
