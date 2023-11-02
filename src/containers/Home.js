@@ -18,7 +18,7 @@ class Home extends Component {
             ido.colour
           </h1>
           <p className="tracking-wide font-hairline text-white md:text-2xl text-sm">
-            A mindful
+            a mindful
           </p>
           <p className="tracking-wide font-hairline text-white md:text-2xl text-sm">
             colour
@@ -31,8 +31,8 @@ class Home extends Component {
           </p>
         </div> 
         <div className="items-stretch md:w-1/4 w-1/2 md:flex fixed pin-b m-20 justify-center">
-          <TextButton text='About' route='/about'/>
-          <TextButton text='Contact' route='/contact'/>
+          <TextButton text='about' route='/about'/>
+          <TextButton text='contact' route='/contact'/>
         </div>
       </FullscreenImage>
     );

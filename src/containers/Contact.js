@@ -118,12 +118,14 @@ class Contact extends Component {
     return (
       <FullscreenImage image="/images/contact.jpg">
           <NavMenu menuList={this.props.menuList} musicParams={musicParams} />
-          <div className='flex object-center justify-center items-center self-auto w-100 h-100 md:mx-auto'>
+          <div className='flex object-left my-auto items-center justify-center self-auto w-100 h-100 mx-auto'>
             <div className={this.state.emailSent ? "invisible mt-2 mb-24 p-8 sm:w-2/3 md:w-1/2" : "visibile mt-2 mb-24 p-8 sm:w-2/3 md:w-1/2"}>
-              <h1 className="visible mx-auto w-full text-white font-mono text-center pb-8 tracking-wide md:mt-32">CONTACT</h1>  
-              <p className="visible w-full text-white font-mono text-center tracking-wide">EMAIL: info@idocolour.com</p>
-              <p className="visible text-white font-mono text-center tracking-wide md:mt-5">ARTIST: www.tiffanysingh.com</p>
-              <p className="visible text-white font-mono text-center tracking-wide md:mt-5">INSTAGRAM: @ido.colour</p>
+              <h1 className="visible mx-auto w-full text-white font-mono text-center pb-8 tracking-wide md:mt-32">contact</h1>  
+              <p className="visible w-full text-white text-center font-mono tracking-wide md:mt-5">email: info@idocolour.com</p>
+              <br></br>
+              <p className="visible text-white font-mono text-center tracking-wide md:mt-5">artist: www.tiffanysingh.com</p>
+              <br></br>
+              <p className="visible text-white font-mono text-center tracking-wide md:mt-5">instagram: @ido.colour</p>
           </div>
         </div>
       </FullscreenImage>
