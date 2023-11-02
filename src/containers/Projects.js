@@ -16,15 +16,17 @@ class Projects extends Component {
       <Fragment>
         <body className="bg-yellow">
         <NavMenu menuList={this.props.menuList} musicParams={options} />
-          <div className="mt-0 m-10 pt-5 font-mono">
+          <div className="mt-0 ml-10 mr-10 pt-24 font-mono">
             <p className="flex-wrap tracking-wide text-justify font-hairline md:text-1xl text-purple font-mono leading-loose ">
-            <h1>ido.colour</h1> 
+            <p className="text-center text-2xl italic">"colours are the subconscious native tongue" - carl jung </p>
+            <br></br> 
+            <h1 className="text-left">ido.colour</h1> 
             ido.colour is the creation of artist Tiffany-Tara Singh. well established in the fine art world, her 
             internationally respected practice positions colour as a medium for health promotion 
             and therapeutic intervention
             <br></br>  
             <br></br>  
-            <h1>about</h1>
+            <h1 className="text-left">about</h1>
             through my extensive studies of colour and the relationship between colour and behaviour, 
             I have recognised that more often than not, we choose colours based on how they appear rather 
             than how they make us feel
@@ -44,7 +46,7 @@ class Projects extends Component {
             hue and tone to create spaces that feel safe, healing and inspiring
             <br></br>  
             <br></br>  
-            <h1>why it is important?</h1> 
+            <h1 className="text-left">why it is important?</h1> 
             colour therapy has been studied to treat various 
             physical and mental health issues, 
             including seasonal affective disorder (S.A.D.),
@@ -54,7 +56,7 @@ class Projects extends Component {
             adults and children
             <br></br>  
             <br></br> 
-            <h1>ido.colour environmental colour design</h1>
+            <h1 className="text-left">ido.colour environmental colour design</h1>
             colour is a universal visual language and when used thoughtfully in the world of 
             design and architecture can transform the essence and feeling of the environment. 
             environmental colour design focuses on the complete experience of the architectural 
@@ -86,9 +88,7 @@ class Projects extends Component {
             <p>- Tiffany-Tara Singh </p>
             <br></br> 
             <br></br> 
-            <p className="italic">"colours are the subconscious native tongue" - carl jung </p>
-            <br></br> 
-            <p className="italic">“many aspects of humankind's explorations are ignored, neglected or discarded. 
+            <p className="italic text-1xl text-justified">“many aspects of humankind's explorations are ignored, neglected or discarded. 
               colour medicine is one of these neglected items. the common feature of 
               every remedial and curative system of treatment, 
               whether it is Ayurveda, allopathy, 
@@ -102,9 +102,6 @@ class Projects extends Component {
             <br></br> 
             <br></br> 
             </p>
-            <br></br> 
-            <br></br> 
-            
             </div>
         </body>
       </Fragment>

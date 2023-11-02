@@ -15,7 +15,7 @@ class Contact extends Component {
       emailSent: false,
 
       bttnStyle: "m-2 p-4 rounded-lg shadow-lg",
-      formStyle: "visible mt-2 mb-24 p-8 sm:w-2/3 md:w-1/2",
+      formStyle: "visible mt-2 mb-24 p-8 ",
       musicParams: options,
       
       formIsValid: false,
@@ -118,9 +118,9 @@ class Contact extends Component {
     return (
       <FullscreenImage image="/images/contact.jpg">
           <NavMenu menuList={this.props.menuList} musicParams={musicParams} />
-          <div className='flex object-left my-auto items-center justify-center self-auto w-100 h-100 mx-auto'>
-            <div className={this.state.emailSent ? "invisible mt-2 mb-24 p-8 sm:w-2/3 md:w-1/2" : "visibile mt-2 mb-24 p-8 sm:w-2/3 md:w-1/2"}>
-              <h1 className="visible mx-auto w-full text-white font-mono text-center pb-8 tracking-wide md:mt-32">contact</h1>  
+          <div className='flex justify-center'>
+            <div className="visibile mt-32 p-8 w-2/3">
+              <h1 className="visible mx-auto my-auto w-full text-white font-mono text-center pb-8 tracking-wide mt-32">contact</h1>  
               <p className="visible w-full text-white text-center font-mono tracking-wide md:mt-5">email: info@idocolour.com</p>
               <br></br>
               <p className="visible text-white font-mono text-center tracking-wide md:mt-5">artist: www.tiffanysingh.com</p>
