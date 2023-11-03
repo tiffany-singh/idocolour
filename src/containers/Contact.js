@@ -119,7 +119,7 @@ class Contact extends Component {
       <FullscreenImage image="/images/contact.jpg">
           <NavMenu menuList={this.props.menuList} musicParams={musicParams} />
           <div className='flex justify-center'>
-            <div className="visibile mt-32 p-8 w-2/3">
+            <div className="visible mt-32 p-8 w-2/3">
             <div className="md:w-1/3 mx-auto">
               <p className="text-5xl visible mx-auto my-auto w-full text-white font-mono text-left pb-8 tracking-wide mt-32 underline decoration-pink-500">contact</p>  
                 <p className="visible text-lg text-white text-left text-bold font-bold font-mono tracking-wide md:mt-5">email: info@idocolour.com</p>

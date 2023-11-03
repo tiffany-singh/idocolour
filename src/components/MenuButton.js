@@ -6,7 +6,7 @@ import Menu from "./Menu";
 const contentStyle = {
   background: "rgba(255,255,255,0)",
   border: "none",
-  'flex-direction': "column"
+  textAlign: "left"
 };
 
 export default class MenuButton extends React.Component {

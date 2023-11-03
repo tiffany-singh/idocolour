@@ -17,7 +17,7 @@ class Projects extends Component {
         <body className="bg-yellow">
         <NavMenu menuList={this.props.menuList} musicParams={options} />
           <div className="mt-0 ml-20 mr-20 pt-24 font-mono">
-            <p className="flex-wrap tracking-wide text-justify font-hairline md:text-2xl text-purple font-mono leading-loose ">
+            <p className="flex-wrap tracking-wide text-left md:text-justify font-hairline md:text-2xl text-purple font-mono leading-loose ">
             <p className="text-center text-2xl italic">"colours are the subconscious native tongue" - carl jung </p>
             <br></br> 
             <h1 className="text-left">ido.colour</h1> 
@@ -39,7 +39,7 @@ class Projects extends Component {
             <br></br>  
             independent from paint brands and with an acute focus on hue and vividness, 
             ido.colour aesthetics present an holistic approach that enhances integrated healing environments 
-            to support wellbeing through the use of colour in architectural spaces. Not simply a tool for 
+            to support wellbeing through the use of colour in architectural spaces. not simply a tool for 
             creating aesthetic interest, colour can evoke emotions, convey a sense of 
             identity, emphasise design features, 
             and create depth and dimension through the use of shade, 

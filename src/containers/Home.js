@@ -30,7 +30,7 @@ class Home extends Component {
             company
           </p>
         </div> 
-        <div className="items-stretch md:w-1/4 w-1/2 md:flex fixed pin-b m-20 justify-center">
+        <div className="items-stretch md:w-1/4 w-1/2 md:flex fixed pin-b m-20 md:ml-5 justify-center">
           <TextButton text='about' route='/about'/>
           <TextButton text='contact' route='/contact'/>
         </div>

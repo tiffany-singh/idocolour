@@ -7,7 +7,7 @@ class TextButton extends PureComponent {
         const {  text, route } = this.props;
         return (
             <NavLink to={route} className="flex-1 no-underline uppercase font-bold font-mono">
-                <div className="text-center flex-1 m-4 p-4 bg-transparent hover:bg-white text-white hover:text-grey border focus:outline-none hover:border-transparent rounded">
+                <div className="text-center flex-1 m-4 p-4 text-white hover:text-grey border focus:outline-none rounded">
                     {text}
                 </div>
             </NavLink>
