@@ -14,7 +14,7 @@ class Projects extends Component {
       <Fragment>
         <body className="bg-yellow">
         <NavMenu menuList={this.props.menuList}/>
-          <div className="mt-0 ml-20 mr-20 pt-24 font-mono">
+          <div className="mt-0 ml-5 mr-5 md:ml-20 md:mr-20 pt-24 font-mono">
             <p className="flex-wrap tracking-wide text-left md:text-justify font-hairline md:text-2xl text-purple font-mono leading-loose ">
             <p className="text-center text-2xl italic">"colours are the subconscious native tongue" - carl jung </p>
             <br></br> 
@@ -27,12 +27,12 @@ class Projects extends Component {
             <h1 className="text-left">about</h1>
             through my extensive studies of colour and the relationship between colour and behaviour, 
             I have recognised that more often than not, we choose colours based on how they appear rather 
-            than how they make us feel
+            than how they make us feel.
             <br></br>  
             <br></br>  
             from understanding the powerful relationship dynamics we build with colour, 
             I have designed a colour consultancy service to shine a light on the 
-            importance of incorporating colour into our daily lives 
+            importance of incorporating colour into our daily lives.
             <br></br>  
             <br></br>  
             independent from paint brands and with an acute focus on hue and vividness, 
@@ -61,19 +61,21 @@ class Projects extends Component {
             space to create, highlight and illuminate, individual yet cohesive spaces that 
             transmit sensation, comfort and nourishment. as transitions from one space to another 
             are considered with fluid and balanced colour palettes and designed to create a 
-            journey through the field of colour
+            journey through the field of colour.
             <br></br>  
             <br></br> 
             whether subtle, bold or combinations of both; 
-            ido.colour specialises in bringing to life architectural spaces based on our humanity, with consideration of psychological, cultural and social and aesthetic factors equally. 
-            focussing on sustainable spaces that are malleable, modern and sympathetic to environmental considerations
+            ido.colour specialises in bringing to life architectural spaces based on our humanity, 
+            with consideration of psychological, cultural and social and aesthetic factors equally. 
+            focussing on sustainable spaces that are malleable, modern and sympathetic 
+            to environmental considerations.
             <br></br>  
             <br></br> 
             over time the use of colour in contemporary architecture has become 
             minimal and more nuanced, we have witnessed a fear of colour 
             with beige, grey and white becoming safe and sterile choices in modern spaces. 
             ido.colour allows for greater creativity and expression while still 
-            maintaining a strong connection to the natural world
+            maintaining a strong connection to the natural world.
             <br></br>  
             <br></br> 
             with a fine art eye for detail the visual experience of the client will not only be aesthetically 
