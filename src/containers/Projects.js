@@ -13,7 +13,7 @@ class Projects extends Component {
     return (
       <Fragment>
         <body className="bg-yellow">
-        <NavMenu/>
+        <NavMenu menuList={this.props.menuList}/>
           <div className="mt-0 ml-20 mr-20 pt-24 font-mono">
             <p className="flex-wrap tracking-wide text-left md:text-justify font-hairline md:text-2xl text-purple font-mono leading-loose ">
             <p className="text-center text-2xl italic">"colours are the subconscious native tongue" - carl jung </p>
