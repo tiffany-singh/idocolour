@@ -10,13 +10,11 @@ import EpkPage from './EpkPage';
 var data = require('../data/mockdata.json');
 
 const App = () => [
-    <HashRouter>
-        <Switch>
-            <Route exact path='/' component={() => <Home menuList={data.menu}/>}/>
-            <Route exact path='/about' component={() => <Projects menuList={data.menu}/>}/>
-            <Route exact path='/contact' component={() => <Contact menuList={data.menu}/>}/>
-        </Switch>
-    </HashRouter>
+    <Switch>
+        <Route exact path='/' component={() => <Home menuList={data.menu}/>}/>
+        <Route exact path='/about' component={() => <Projects menuList={data.menu}/>}/>
+        <Route exact path='/contact' component={() => <Contact menuList={data.menu}/>}/>
+    </Switch>
 ]
 
 export default App;

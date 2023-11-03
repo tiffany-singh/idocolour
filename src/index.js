@@ -7,9 +7,9 @@ import './css/tailwind.css'
 import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.render((
-    <BrowserRouter>
+    <HashRouter>
         <App />
-    </BrowserRouter>
+    </HashRouter>
     ),
         document.getElementById('root')
 )
